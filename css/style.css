@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+
+
+html {
+    font-family: 'Roboto', sans-serif ;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -24,7 +30,6 @@
 
 .logo .logo_text {
     margin-top: 8px;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 15px;
     line-height: 160%;
@@ -388,3 +393,11 @@ h2.title {
     color: #888;
     margin-top: 25px;
 }
+
+
+.roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
